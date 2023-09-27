@@ -198,16 +198,26 @@ public class DriverFactory {
 
 	public static String getScreenshot(String methodName) {
 		File srcFile = ((TakesScreenshot) getDriver()).getScreenshotAs(OutputType.FILE);
-		String path = System.getProperty("user.dir") + "/Screenshot/" + methodName + "_" + System.currentTimeMillis()
-				+ ".png";
-		File destination = new File(path);
+		
+		String ImageName=methodName + "_" + System.currentTimeMillis()
+		+ ".png";
+		String local=System.getProperty("user.dir") + "/Screenshot/";
+		
+		String localPath=local+ImageName;
+		
+		String jenkins="http://localhost:8080/job/AD_ID/ws/Screenshot/";
+		
+		String JenkinsPath=jenkins+ImageName;
+		 ;
+		 
+		File destination = new File(localPath);
 		try {
 			FileHandler.copy(srcFile, destination);
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
 
-		return path;
+		return JenkinsPath;
 	}
 	
 	public static String takeLongScreenshotAndSaveAsPDF( WebDriver driver )

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-09-27T13:23:48 IST" name="Opencart App Test Regression Suite" finished-at="2023-09-27T13:30:17 IST" duration-ms="388808">
+    <groups>
+    </groups>
+    <test started-at="2023-09-27T13:23:48 IST" name="Customer Order" finished-at="2023-09-27T13:30:17 IST" duration-ms="388808">
+      <class name="com.qa.AD_ID.tests.LabelsAndTagsConfiguration">
+        <test-method is-config="true" signature="startRecord()[pri:0, instance:com.qa.AD_ID.tests.LabelsAndTagsConfiguration@6c8dbf56]" started-at="2023-09-27T13:23:48 IST" name="startRecord" finished-at="2023-09-27T13:23:48 IST" duration-ms="185" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startRecord -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.qa.AD_ID.tests.LabelsAndTagsConfiguration@6c8dbf56]" started-at="2023-09-27T13:23:48 IST" name="setup" finished-at="2023-09-27T13:24:33 IST" duration-ms="44888" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="labelsAndTagsConfiguration()[pri:0, instance:com.qa.AD_ID.tests.LabelsAndTagsConfiguration@6c8dbf56]" started-at="2023-09-27T13:24:33 IST" name="labelsAndTagsConfiguration" finished-at="2023-09-27T13:30:15 IST" duration-ms="341785" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- labelsAndTagsConfiguration -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.AD_ID.tests.LabelsAndTagsConfiguration@6c8dbf56]" started-at="2023-09-27T13:30:17 IST" name="tearDown" finished-at="2023-09-27T13:30:17 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="stopRecord()[pri:0, instance:com.qa.AD_ID.tests.LabelsAndTagsConfiguration@6c8dbf56]" started-at="2023-09-27T13:30:20 IST" name="stopRecord" finished-at="2023-09-27T13:30:21 IST" duration-ms="782" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopRecord -->
+      </class> <!-- com.qa.AD_ID.tests.LabelsAndTagsConfiguration -->
+    </test> <!-- Customer Order -->
+  </suite> <!-- Opencart App Test Regression Suite -->
+</testng-results>
