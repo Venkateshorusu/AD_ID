@@ -29,7 +29,7 @@ public class BaseTest {
 	protected DriverFactory df;
 	protected SoftAssert softAssert;
 
-	@BeforeSuite
+//	@BeforeSuite
 	public void startRecord() {
 		try {
 			ScreenRecorderUtil.startRecord("login");
@@ -38,7 +38,7 @@ public class BaseTest {
 		}
 	}
 
-	@AfterSuite
+//	@AfterSuite
 	public void stopRecord() {
 		try {
 			ScreenRecorderUtil.stopRecord();
@@ -73,7 +73,7 @@ public class BaseTest {
 	@AfterTest
 	public void tearDown() {
 
-//		driver.quit();
+		driver.quit();
 	}
 
 }
